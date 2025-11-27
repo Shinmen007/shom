@@ -377,3 +377,7 @@
 [Thu Nov 27 14:21:48 2025] 127.0.0.1:55488 Accepted
 [Thu Nov 27 14:21:48 2025] 127.0.0.1:55488 [200]: GET /assets/css/style.css
 [Thu Nov 27 14:21:48 2025] 127.0.0.1:55488 Closing
+[Thu Nov 27 15:06:08 2025] 127.0.0.1:36660 Accepted
+[Thu Nov 27 15:06:08 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 15:06:08 2025] 127.0.0.1:36660 [200]: GET /
+[Thu Nov 27 15:06:08 2025] 127.0.0.1:36660 Closing
