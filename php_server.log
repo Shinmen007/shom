@@ -1,0 +1,379 @@
+[Thu Nov 27 14:07:37 2025] PHP 8.3.14 Development Server (http://127.0.0.1:8000) started
+[Thu Nov 27 14:08:50 2025] 127.0.0.1:46850 Accepted
+[Thu Nov 27 14:08:50 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:08:50 2025] 127.0.0.1:46850 [200]: GET /
+[Thu Nov 27 14:08:50 2025] 127.0.0.1:46850 Closing
+[Thu Nov 27 14:09:37 2025] 127.0.0.1:53062 Accepted
+[Thu Nov 27 14:09:37 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:09:37 2025] 127.0.0.1:53062 [200]: GET /
+[Thu Nov 27 14:09:37 2025] 127.0.0.1:53062 Closing
+[Thu Nov 27 14:09:38 2025] 127.0.0.1:53072 Accepted
+[Thu Nov 27 14:09:38 2025] 127.0.0.1:53072 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:09:38 2025] 127.0.0.1:53072 Closing
+[Thu Nov 27 14:09:38 2025] 127.0.0.1:53084 Accepted
+[Thu Nov 27 14:09:38 2025] 127.0.0.1:53084 [404]: GET /favicon.ico - No such file or directory
+[Thu Nov 27 14:09:38 2025] 127.0.0.1:53084 Closing
+[Thu Nov 27 14:09:51 2025] 127.0.0.1:37270 Accepted
+[Thu Nov 27 14:09:51 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:09:51 2025] 127.0.0.1:37270 [200]: GET /register
+[Thu Nov 27 14:09:51 2025] 127.0.0.1:37270 Closing
+[Thu Nov 27 14:10:45 2025] 127.0.0.1:59520 Accepted
+[Thu Nov 27 14:10:45 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:10:45 2025] 127.0.0.1:59520 [200]: GET /
+[Thu Nov 27 14:10:45 2025] 127.0.0.1:59520 Closing
+[Thu Nov 27 14:10:46 2025] 127.0.0.1:59530 Accepted
+[Thu Nov 27 14:10:46 2025] 127.0.0.1:59530 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:10:46 2025] 127.0.0.1:59530 Closing
+[Thu Nov 27 14:10:46 2025] 127.0.0.1:59536 Accepted
+[Thu Nov 27 14:10:46 2025] 127.0.0.1:59536 [404]: GET /favicon.ico - No such file or directory
+[Thu Nov 27 14:10:46 2025] 127.0.0.1:59536 Closing
+[Thu Nov 27 14:10:48 2025] 127.0.0.1:49644 Accepted
+[Thu Nov 27 14:10:48 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:10:48 2025] 127.0.0.1:49644 [200]: GET /
+[Thu Nov 27 14:10:48 2025] 127.0.0.1:49644 Closing
+[Thu Nov 27 14:10:48 2025] 127.0.0.1:49646 Accepted
+[Thu Nov 27 14:10:48 2025] 127.0.0.1:49646 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:10:48 2025] 127.0.0.1:49646 Closing
+[Thu Nov 27 14:10:53 2025] 127.0.0.1:49650 Accepted
+[Thu Nov 27 14:10:53 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:10:53 2025] 127.0.0.1:49650 [200]: GET /
+[Thu Nov 27 14:10:53 2025] 127.0.0.1:49650 Closing
+[Thu Nov 27 14:10:53 2025] 127.0.0.1:49654 Accepted
+[Thu Nov 27 14:10:53 2025] 127.0.0.1:49654 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:10:53 2025] 127.0.0.1:49654 Closing
+[Thu Nov 27 14:10:56 2025] 127.0.0.1:49662 Accepted
+[Thu Nov 27 14:10:56 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:10:56 2025] 127.0.0.1:49662 [200]: GET /
+[Thu Nov 27 14:10:56 2025] 127.0.0.1:49662 Closing
+[Thu Nov 27 14:10:56 2025] 127.0.0.1:49676 Accepted
+[Thu Nov 27 14:10:56 2025] 127.0.0.1:49676 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:10:56 2025] 127.0.0.1:49676 Closing
+[Thu Nov 27 14:11:01 2025] 127.0.0.1:42280 Accepted
+[Thu Nov 27 14:11:01 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:11:01 2025] 127.0.0.1:42280 [200]: GET /register
+[Thu Nov 27 14:11:01 2025] 127.0.0.1:42280 Closing
+[Thu Nov 27 14:11:10 2025] 127.0.0.1:40052 Accepted
+[Thu Nov 27 14:11:10 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:11:10 2025] 127.0.0.1:40052 [200]: GET /
+[Thu Nov 27 14:11:10 2025] 127.0.0.1:40052 Closing
+[Thu Nov 27 14:11:11 2025] 127.0.0.1:40056 Accepted
+[Thu Nov 27 14:11:11 2025] 127.0.0.1:40056 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:11:11 2025] 127.0.0.1:40056 Closing
+[Thu Nov 27 14:11:57 2025] 127.0.0.1:33814 Accepted
+[Thu Nov 27 14:11:57 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:11:57 2025] 127.0.0.1:33814 [200]: GET /
+[Thu Nov 27 14:11:57 2025] 127.0.0.1:33814 Closing
+[Thu Nov 27 14:11:57 2025] 127.0.0.1:33830 Accepted
+[Thu Nov 27 14:11:57 2025] 127.0.0.1:33830 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:11:57 2025] 127.0.0.1:33830 Closing
+[Thu Nov 27 14:12:08 2025] 127.0.0.1:48412 Accepted
+[Thu Nov 27 14:12:08 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:08 2025] 127.0.0.1:48412 [200]: GET /editor
+[Thu Nov 27 14:12:08 2025] 127.0.0.1:48412 Closing
+[Thu Nov 27 14:12:09 2025] 127.0.0.1:48416 Accepted
+[Thu Nov 27 14:12:09 2025] 127.0.0.1:48416 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:12:09 2025] 127.0.0.1:48416 Closing
+[Thu Nov 27 14:12:11 2025] 127.0.0.1:48426 Accepted
+[Thu Nov 27 14:12:11 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:12 2025] 127.0.0.1:48426 [200]: POST /api/execute
+[Thu Nov 27 14:12:12 2025] 127.0.0.1:48426 Closing
+[Thu Nov 27 14:12:19 2025] 127.0.0.1:51616 Accepted
+[Thu Nov 27 14:12:19 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:19 2025] 127.0.0.1:51616 [200]: GET /
+[Thu Nov 27 14:12:19 2025] 127.0.0.1:51616 Closing
+[Thu Nov 27 14:12:19 2025] 127.0.0.1:51630 Accepted
+[Thu Nov 27 14:12:19 2025] 127.0.0.1:51630 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:12:19 2025] 127.0.0.1:51630 Closing
+[Thu Nov 27 14:12:23 2025] 127.0.0.1:51636 Accepted
+[Thu Nov 27 14:12:23 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:23 2025] 127.0.0.1:51636 [200]: GET /
+[Thu Nov 27 14:12:23 2025] 127.0.0.1:51636 Closing
+[Thu Nov 27 14:12:23 2025] 127.0.0.1:51650 Accepted
+[Thu Nov 27 14:12:23 2025] 127.0.0.1:51650 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:12:23 2025] 127.0.0.1:51650 Closing
+[Thu Nov 27 14:12:24 2025] 127.0.0.1:51664 Accepted
+[Thu Nov 27 14:12:24 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:24 2025] 127.0.0.1:51664 [200]: GET /
+[Thu Nov 27 14:12:24 2025] 127.0.0.1:51664 Closing
+[Thu Nov 27 14:12:24 2025] 127.0.0.1:51672 Accepted
+[Thu Nov 27 14:12:24 2025] 127.0.0.1:51672 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:12:24 2025] 127.0.0.1:51672 Closing
+[Thu Nov 27 14:12:30 2025] 127.0.0.1:33012 Accepted
+[Thu Nov 27 14:12:30 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:30 2025] 127.0.0.1:33012 [200]: GET /
+[Thu Nov 27 14:12:30 2025] 127.0.0.1:33012 Closing
+[Thu Nov 27 14:12:30 2025] 127.0.0.1:33026 Accepted
+[Thu Nov 27 14:12:30 2025] 127.0.0.1:33026 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:12:30 2025] 127.0.0.1:33026 Closing
+[Thu Nov 27 14:12:32 2025] 127.0.0.1:33034 Accepted
+[Thu Nov 27 14:12:32 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:32 2025] 127.0.0.1:33034 [200]: GET /
+[Thu Nov 27 14:12:32 2025] 127.0.0.1:33034 Closing
+[Thu Nov 27 14:12:32 2025] 127.0.0.1:33042 Accepted
+[Thu Nov 27 14:12:32 2025] 127.0.0.1:33042 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:12:32 2025] 127.0.0.1:33042 Closing
+[Thu Nov 27 14:12:46 2025] 127.0.0.1:47384 Accepted
+[Thu Nov 27 14:12:46 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:46 2025] 127.0.0.1:47384 [200]: GET /
+[Thu Nov 27 14:12:46 2025] 127.0.0.1:47384 Closing
+[Thu Nov 27 14:12:46 2025] 127.0.0.1:47394 Accepted
+[Thu Nov 27 14:12:46 2025] 127.0.0.1:47394 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:12:46 2025] 127.0.0.1:47394 Closing
+[Thu Nov 27 14:12:53 2025] 127.0.0.1:59612 Accepted
+[Thu Nov 27 14:12:53 2025] 127.0.0.1:59612 [404]: GET /robots.txt - No such file or directory
+[Thu Nov 27 14:12:53 2025] 127.0.0.1:59612 Closing
+[Thu Nov 27 14:12:53 2025] 127.0.0.1:59626 Accepted
+[Thu Nov 27 14:12:53 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:53 2025] 127.0.0.1:59626 [200]: GET /
+[Thu Nov 27 14:12:53 2025] 127.0.0.1:59626 Closing
+[Thu Nov 27 14:12:54 2025] 127.0.0.1:59640 Accepted
+[Thu Nov 27 14:12:54 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:54 2025] 127.0.0.1:59640 [200]: GET /
+[Thu Nov 27 14:12:54 2025] 127.0.0.1:59640 Closing
+[Thu Nov 27 14:12:57 2025] 127.0.0.1:46520 Accepted
+[Thu Nov 27 14:12:57 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:12:57 2025] 127.0.0.1:46520 [200]: GET /?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeIslQL20zTpP3CYDL8KbPvJO6aGk2A1tCZe8-5gONkFiOPdZNcHZI_i4oO4M_aem_US8pNfdJwCLQuUCk55y7OA
+[Thu Nov 27 14:12:57 2025] 127.0.0.1:46520 Closing
+[Thu Nov 27 14:12:57 2025] 127.0.0.1:46526 Accepted
+[Thu Nov 27 14:12:57 2025] 127.0.0.1:46526 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:12:57 2025] 127.0.0.1:46526 Closing
+[Thu Nov 27 14:13:11 2025] 127.0.0.1:32978 Accepted
+[Thu Nov 27 14:13:11 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:13:11 2025] 127.0.0.1:32978 [200]: GET /?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeOiPtlrZ2f-5Bnt6bfUfmCSROTSq4WmCIdkLKhhxukeBLRqETz_pOj6I2VcY_aem_CQGPwetwJQsH7V1MBi2xnA
+[Thu Nov 27 14:13:11 2025] 127.0.0.1:32978 Closing
+[Thu Nov 27 14:13:13 2025] 127.0.0.1:32994 Accepted
+[Thu Nov 27 14:13:13 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:13:13 2025] 127.0.0.1:32994 [200]: GET /
+[Thu Nov 27 14:13:13 2025] 127.0.0.1:32994 Closing
+[Thu Nov 27 14:13:22 2025] 127.0.0.1:37044 Accepted
+[Thu Nov 27 14:13:22 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:13:22 2025] 127.0.0.1:37044 [200]: GET /
+[Thu Nov 27 14:13:22 2025] 127.0.0.1:37044 Closing
+[Thu Nov 27 14:13:23 2025] 127.0.0.1:37048 Accepted
+[Thu Nov 27 14:13:23 2025] 127.0.0.1:37048 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:13:23 2025] 127.0.0.1:37048 Closing
+[Thu Nov 27 14:13:23 2025] 127.0.0.1:37060 Accepted
+[Thu Nov 27 14:13:23 2025] 127.0.0.1:37060 [404]: GET /favicon.ico - No such file or directory
+[Thu Nov 27 14:13:23 2025] 127.0.0.1:37060 Closing
+[Thu Nov 27 14:13:24 2025] 127.0.0.1:37070 Accepted
+[Thu Nov 27 14:13:24 2025] 127.0.0.1:37070 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:13:24 2025] 127.0.0.1:37070 Closing
+[Thu Nov 27 14:13:41 2025] 127.0.0.1:44306 Accepted
+[Thu Nov 27 14:13:41 2025] 127.0.0.1:44306 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:13:41 2025] 127.0.0.1:44306 Closing
+[Thu Nov 27 14:13:48 2025] 127.0.0.1:38150 Accepted
+[Thu Nov 27 14:13:48 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:13:48 2025] 127.0.0.1:38150 [200]: GET /
+[Thu Nov 27 14:13:48 2025] 127.0.0.1:38150 Closing
+[Thu Nov 27 14:14:12 2025] 127.0.0.1:39066 Accepted
+[Thu Nov 27 14:14:12 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:14:12 2025] 127.0.0.1:39066 [200]: GET /register
+[Thu Nov 27 14:14:12 2025] 127.0.0.1:39066 Closing
+[Thu Nov 27 14:14:25 2025] 127.0.0.1:55960 Accepted
+[Thu Nov 27 14:14:25 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:14:25 2025] 127.0.0.1:55960 [302]: POST /register
+[Thu Nov 27 14:14:25 2025] 127.0.0.1:55960 Closing
+[Thu Nov 27 14:14:26 2025] 127.0.0.1:55964 Accepted
+[Thu Nov 27 14:14:26 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:14:26 2025] 127.0.0.1:55964 [200]: GET /login
+[Thu Nov 27 14:14:26 2025] 127.0.0.1:55964 Closing
+[Thu Nov 27 14:14:33 2025] 127.0.0.1:56158 Accepted
+[Thu Nov 27 14:14:33 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:14:34 2025] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /workspaces/shom/public/index.php on line 10) in /workspaces/shom/src/Controllers/AuthController.php on line 66
+[Thu Nov 27 14:14:34 2025] 127.0.0.1:56158 [302]: POST /login
+[Thu Nov 27 14:14:34 2025] 127.0.0.1:56158 Closing
+[Thu Nov 27 14:14:34 2025] 127.0.0.1:56162 Accepted
+[Thu Nov 27 14:14:34 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:14:34 2025] 127.0.0.1:56162 [200]: GET /dashboard
+[Thu Nov 27 14:14:34 2025] 127.0.0.1:56162 Closing
+[Thu Nov 27 14:14:34 2025] 127.0.0.1:56166 Accepted
+[Thu Nov 27 14:14:34 2025] 127.0.0.1:56166 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:14:34 2025] 127.0.0.1:56166 Closing
+[Thu Nov 27 14:14:41 2025] 127.0.0.1:37940 Accepted
+[Thu Nov 27 14:14:41 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:14:41 2025] 127.0.0.1:37940 [200]: GET /course/1
+[Thu Nov 27 14:14:41 2025] 127.0.0.1:37940 Closing
+[Thu Nov 27 14:14:41 2025] 127.0.0.1:37954 Accepted
+[Thu Nov 27 14:14:41 2025] 127.0.0.1:37954 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:14:41 2025] 127.0.0.1:37954 Closing
+[Thu Nov 27 14:14:42 2025] 127.0.0.1:37966 Accepted
+[Thu Nov 27 14:14:42 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:14:42 2025] 127.0.0.1:37966 [200]: GET /
+[Thu Nov 27 14:14:42 2025] 127.0.0.1:37966 Closing
+[Thu Nov 27 14:14:42 2025] 127.0.0.1:37976 Accepted
+[Thu Nov 27 14:14:42 2025] 127.0.0.1:37976 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:14:42 2025] 127.0.0.1:37976 Closing
+[Thu Nov 27 14:14:44 2025] 127.0.0.1:37982 Accepted
+[Thu Nov 27 14:14:44 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:14:44 2025] 127.0.0.1:37982 [200]: GET /editor
+[Thu Nov 27 14:14:44 2025] 127.0.0.1:37982 Closing
+[Thu Nov 27 14:14:45 2025] 127.0.0.1:37992 Accepted
+[Thu Nov 27 14:14:45 2025] 127.0.0.1:37992 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:14:45 2025] 127.0.0.1:37992 Closing
+[Thu Nov 27 14:14:48 2025] 127.0.0.1:37700 Accepted
+[Thu Nov 27 14:14:48 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:14:50 2025] 127.0.0.1:37700 [200]: POST /api/execute
+[Thu Nov 27 14:14:50 2025] 127.0.0.1:37700 Closing
+[Thu Nov 27 14:14:56 2025] 127.0.0.1:54984 Accepted
+[Thu Nov 27 14:14:56 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:14:56 2025] 127.0.0.1:54984 [200]: GET /editor
+[Thu Nov 27 14:14:56 2025] 127.0.0.1:54984 Closing
+[Thu Nov 27 14:14:57 2025] 127.0.0.1:54992 Accepted
+[Thu Nov 27 14:14:57 2025] 127.0.0.1:54992 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:14:57 2025] 127.0.0.1:54992 Closing
+[Thu Nov 27 14:15:02 2025] 127.0.0.1:55006 Accepted
+[Thu Nov 27 14:15:02 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:15:02 2025] 127.0.0.1:55006 [200]: GET /
+[Thu Nov 27 14:15:02 2025] 127.0.0.1:55006 Closing
+[Thu Nov 27 14:15:02 2025] 127.0.0.1:55022 Accepted
+[Thu Nov 27 14:15:02 2025] 127.0.0.1:55022 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:15:02 2025] 127.0.0.1:55022 Closing
+[Thu Nov 27 14:15:10 2025] 127.0.0.1:40920 Accepted
+[Thu Nov 27 14:15:10 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:15:10 2025] 127.0.0.1:40920 [200]: GET /
+[Thu Nov 27 14:15:10 2025] 127.0.0.1:40920 Closing
+[Thu Nov 27 14:15:11 2025] 127.0.0.1:40922 Accepted
+[Thu Nov 27 14:15:11 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:15:11 2025] 127.0.0.1:40922 [200]: GET /course/1
+[Thu Nov 27 14:15:11 2025] 127.0.0.1:40922 Closing
+[Thu Nov 27 14:15:12 2025] 127.0.0.1:40930 Accepted
+[Thu Nov 27 14:15:12 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:15:12 2025] 127.0.0.1:40930 [200]: GET /dashboard
+[Thu Nov 27 14:15:12 2025] 127.0.0.1:40930 Closing
+[Thu Nov 27 14:15:13 2025] 127.0.0.1:40946 Accepted
+[Thu Nov 27 14:15:13 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:15:13 2025] 127.0.0.1:40946 [200]: GET /login
+[Thu Nov 27 14:15:13 2025] 127.0.0.1:40946 Closing
+[Thu Nov 27 14:15:34 2025] 127.0.0.1:52914 Accepted
+[Thu Nov 27 14:15:34 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:15:34 2025] 127.0.0.1:52914 [200]: GET /
+[Thu Nov 27 14:15:34 2025] 127.0.0.1:52914 Closing
+[Thu Nov 27 14:15:35 2025] 127.0.0.1:52920 Accepted
+[Thu Nov 27 14:15:35 2025] 127.0.0.1:52920 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:15:35 2025] 127.0.0.1:52920 Closing
+[Thu Nov 27 14:15:37 2025] 127.0.0.1:57786 Accepted
+[Thu Nov 27 14:15:37 2025] 127.0.0.1:57786 [404]: GET /favicon.ico - No such file or directory
+[Thu Nov 27 14:15:37 2025] 127.0.0.1:57786 Closing
+[Thu Nov 27 14:16:10 2025] 127.0.0.1:33432 Accepted
+[Thu Nov 27 14:16:10 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:16:10 2025] 127.0.0.1:33432 [200]: GET /login
+[Thu Nov 27 14:16:10 2025] 127.0.0.1:33432 Closing
+[Thu Nov 27 14:16:33 2025] 127.0.0.1:45464 Accepted
+[Thu Nov 27 14:16:33 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:16:33 2025] 127.0.0.1:45464 [200]: GET /
+[Thu Nov 27 14:16:33 2025] 127.0.0.1:45464 Closing
+[Thu Nov 27 14:16:34 2025] 127.0.0.1:45466 Accepted
+[Thu Nov 27 14:16:34 2025] 127.0.0.1:45466 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:16:34 2025] 127.0.0.1:45466 Closing
+[Thu Nov 27 14:16:34 2025] 127.0.0.1:45474 Accepted
+[Thu Nov 27 14:16:34 2025] 127.0.0.1:45474 [404]: GET /favicon.ico - No such file or directory
+[Thu Nov 27 14:16:34 2025] 127.0.0.1:45474 Closing
+[Thu Nov 27 14:16:45 2025] 127.0.0.1:33382 Accepted
+[Thu Nov 27 14:16:45 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:16:45 2025] 127.0.0.1:33382 [200]: POST /login
+[Thu Nov 27 14:16:45 2025] 127.0.0.1:33382 Closing
+[Thu Nov 27 14:16:51 2025] 127.0.0.1:48698 Accepted
+[Thu Nov 27 14:16:51 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:16:51 2025] 127.0.0.1:48698 [200]: GET /login
+[Thu Nov 27 14:16:51 2025] 127.0.0.1:48698 Closing
+[Thu Nov 27 14:16:54 2025] 127.0.0.1:48710 Accepted
+[Thu Nov 27 14:16:54 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:16:54 2025] 127.0.0.1:48710 [200]: GET /
+[Thu Nov 27 14:16:54 2025] 127.0.0.1:48710 Closing
+[Thu Nov 27 14:16:54 2025] 127.0.0.1:48724 Accepted
+[Thu Nov 27 14:16:54 2025] 127.0.0.1:48724 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:16:54 2025] 127.0.0.1:48724 Closing
+[Thu Nov 27 14:17:16 2025] 127.0.0.1:43226 Accepted
+[Thu Nov 27 14:17:16 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:17:16 2025] 127.0.0.1:43226 [200]: GET /courses
+[Thu Nov 27 14:17:16 2025] 127.0.0.1:43226 Closing
+[Thu Nov 27 14:17:16 2025] 127.0.0.1:43230 Accepted
+[Thu Nov 27 14:17:16 2025] 127.0.0.1:43230 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:17:16 2025] 127.0.0.1:43230 Closing
+[Thu Nov 27 14:17:22 2025] 127.0.0.1:34304 Accepted
+[Thu Nov 27 14:17:22 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:17:22 2025] 127.0.0.1:34304 [200]: GET /editor
+[Thu Nov 27 14:17:22 2025] 127.0.0.1:34304 Closing
+[Thu Nov 27 14:17:23 2025] 127.0.0.1:34306 Accepted
+[Thu Nov 27 14:17:23 2025] 127.0.0.1:34306 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:17:23 2025] 127.0.0.1:34306 Closing
+[Thu Nov 27 14:17:59 2025] 127.0.0.1:37890 Accepted
+[Thu Nov 27 14:17:59 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:17:59 2025] 127.0.0.1:37890 [200]: GET /editor
+[Thu Nov 27 14:17:59 2025] 127.0.0.1:37890 Closing
+[Thu Nov 27 14:17:59 2025] 127.0.0.1:37892 Accepted
+[Thu Nov 27 14:17:59 2025] 127.0.0.1:37892 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:17:59 2025] 127.0.0.1:37892 Closing
+[Thu Nov 27 14:20:04 2025] 127.0.0.1:38196 Accepted
+[Thu Nov 27 14:20:04 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:20:04 2025] 127.0.0.1:38196 [200]: GET /editor
+[Thu Nov 27 14:20:04 2025] 127.0.0.1:38196 Closing
+[Thu Nov 27 14:20:05 2025] 127.0.0.1:38198 Accepted
+[Thu Nov 27 14:20:05 2025] 127.0.0.1:38198 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:20:05 2025] 127.0.0.1:38198 Closing
+[Thu Nov 27 14:20:07 2025] 127.0.0.1:51484 Accepted
+[Thu Nov 27 14:20:07 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:20:09 2025] 127.0.0.1:51484 [200]: POST /api/execute
+[Thu Nov 27 14:20:09 2025] 127.0.0.1:51484 Closing
+[Thu Nov 27 14:20:10 2025] 127.0.0.1:51494 Accepted
+[Thu Nov 27 14:20:10 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:20:11 2025] 127.0.0.1:51494 [200]: POST /api/execute
+[Thu Nov 27 14:20:11 2025] 127.0.0.1:51494 Closing
+[Thu Nov 27 14:20:13 2025] 127.0.0.1:51508 Accepted
+[Thu Nov 27 14:20:13 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:20:13 2025] 127.0.0.1:51508 [200]: GET /editor
+[Thu Nov 27 14:20:13 2025] 127.0.0.1:51508 Closing
+[Thu Nov 27 14:20:13 2025] 127.0.0.1:51524 Accepted
+[Thu Nov 27 14:20:13 2025] 127.0.0.1:51524 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:20:13 2025] 127.0.0.1:51524 Closing
+[Thu Nov 27 14:20:16 2025] 127.0.0.1:51532 Accepted
+[Thu Nov 27 14:20:16 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:20:18 2025] 127.0.0.1:51532 [200]: POST /api/execute
+[Thu Nov 27 14:20:18 2025] 127.0.0.1:51532 Closing
+[Thu Nov 27 14:20:23 2025] 127.0.0.1:42996 Accepted
+[Thu Nov 27 14:20:23 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:20:25 2025] 127.0.0.1:42996 [200]: POST /api/execute
+[Thu Nov 27 14:20:25 2025] 127.0.0.1:42996 Closing
+[Thu Nov 27 14:20:31 2025] 127.0.0.1:46102 Accepted
+[Thu Nov 27 14:20:31 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:20:31 2025] 127.0.0.1:46102 [200]: GET /
+[Thu Nov 27 14:20:31 2025] 127.0.0.1:46102 Closing
+[Thu Nov 27 14:20:31 2025] 127.0.0.1:46116 Accepted
+[Thu Nov 27 14:20:31 2025] 127.0.0.1:46116 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:20:31 2025] 127.0.0.1:46116 Closing
+[Thu Nov 27 14:21:03 2025] 127.0.0.1:60672 Accepted
+[Thu Nov 27 14:21:03 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:21:03 2025] 127.0.0.1:60672 [200]: GET /courses
+[Thu Nov 27 14:21:03 2025] 127.0.0.1:60672 Closing
+[Thu Nov 27 14:21:04 2025] 127.0.0.1:60686 Accepted
+[Thu Nov 27 14:21:04 2025] 127.0.0.1:60686 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:21:04 2025] 127.0.0.1:60686 Closing
+[Thu Nov 27 14:21:19 2025] 127.0.0.1:40234 Accepted
+[Thu Nov 27 14:21:19 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:21:19 2025] 127.0.0.1:40234 [200]: GET /course/1
+[Thu Nov 27 14:21:19 2025] 127.0.0.1:40234 Closing
+[Thu Nov 27 14:21:20 2025] 127.0.0.1:40248 Accepted
+[Thu Nov 27 14:21:20 2025] 127.0.0.1:40248 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:21:20 2025] 127.0.0.1:40248 Closing
+[Thu Nov 27 14:21:24 2025] 127.0.0.1:40260 Accepted
+[Thu Nov 27 14:21:24 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:21:24 2025] 127.0.0.1:40260 [302]: GET /lesson/1
+[Thu Nov 27 14:21:24 2025] 127.0.0.1:40260 Closing
+[Thu Nov 27 14:21:25 2025] 127.0.0.1:40274 Accepted
+[Thu Nov 27 14:21:25 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:21:25 2025] 127.0.0.1:40274 [200]: GET /login
+[Thu Nov 27 14:21:25 2025] 127.0.0.1:40274 Closing
+[Thu Nov 27 14:21:42 2025] 127.0.0.1:57958 Accepted
+[Thu Nov 27 14:21:42 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:21:42 2025] 127.0.0.1:57958 [200]: GET /courses
+[Thu Nov 27 14:21:42 2025] 127.0.0.1:57958 Closing
+[Thu Nov 27 14:21:43 2025] 127.0.0.1:57962 Accepted
+[Thu Nov 27 14:21:43 2025] 127.0.0.1:57962 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:21:43 2025] 127.0.0.1:57962 Closing
+[Thu Nov 27 14:21:48 2025] 127.0.0.1:55472 Accepted
+[Thu Nov 27 14:21:48 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Thu Nov 27 14:21:48 2025] 127.0.0.1:55472 [200]: GET /
+[Thu Nov 27 14:21:48 2025] 127.0.0.1:55472 Closing
+[Thu Nov 27 14:21:48 2025] 127.0.0.1:55488 Accepted
+[Thu Nov 27 14:21:48 2025] 127.0.0.1:55488 [200]: GET /assets/css/style.css
+[Thu Nov 27 14:21:48 2025] 127.0.0.1:55488 Closing
