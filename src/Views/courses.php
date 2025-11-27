@@ -595,36 +595,216 @@
     </footer>
 
     <script>
-        // Filter functionality
+        // Enhanced Filter functionality with animations
         document.querySelectorAll('.lang-btn').forEach(btn => {
             btn.addEventListener('click', function() {
                 document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
                 this.classList.add('active');
                 
                 const filter = this.dataset.filter;
-                document.querySelectorAll('.course-card').forEach(card => {
-                    if (filter === 'all' || card.dataset.lang === filter) {
+                const cards = document.querySelectorAll('.course-card');
+                let visibleCount = 0;
+                
+                cards.forEach((card, index) => {
+                    const shouldShow = filter === 'all' || card.dataset.lang === filter;
+                    
+                    if (shouldShow) {
                         card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, index * 50);
+                        visibleCount++;
                     } else {
-                        card.style.display = 'none';
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(10px)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
                     }
                 });
+                
+                // Show/hide empty state
+                updateEmptyState(visibleCount);
             });
         });
         
-        // Search functionality
+        // Enhanced Search functionality with debouncing
+        let searchTimeout;
         document.getElementById('searchInput').addEventListener('input', function() {
-            const query = this.value.toLowerCase();
-            document.querySelectorAll('.course-card').forEach(card => {
-                const title = card.querySelector('.card-title').textContent.toLowerCase();
-                const desc = card.querySelector('.card-desc').textContent.toLowerCase();
-                if (title.includes(query) || desc.includes(query)) {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
+            clearTimeout(searchTimeout);
+            const query = this.value.toLowerCase().trim();
+            
+            searchTimeout = setTimeout(() => {
+                const cards = document.querySelectorAll('.course-card');
+                let visibleCount = 0;
+                
+                cards.forEach((card, index) => {
+                    const title = card.querySelector('.card-title').textContent.toLowerCase();
+                    const desc = card.querySelector('.card-desc').textContent.toLowerCase();
+                    const tags = Array.from(card.querySelectorAll('.card-tag')).map(t => t.textContent.toLowerCase()).join(' ');
+                    
+                    const shouldShow = !query || title.includes(query) || desc.includes(query) || tags.includes(query);
+                    
+                    if (shouldShow) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, index * 30);
+                        visibleCount++;
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(10px)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }
+                });
+                
+                updateEmptyState(visibleCount, query);
+            }, 300);
+        });
+        
+        // Empty state management
+        function updateEmptyState(count, query = '') {
+            let emptyState = document.querySelector('.empty-state');
+            
+            if (count === 0) {
+                if (!emptyState) {
+                    emptyState = document.createElement('div');
+                    emptyState.className = 'empty-state';
+                    emptyState.style.cssText = `
+                        grid-column: 1/-1;
+                        text-align: center;
+                        padding: 80px 24px;
+                        background: #18181b;
+                        border-radius: 20px;
+                        border: 1px solid #27272a;
+                        opacity: 0;
+                        transform: translateY(10px);
+                        transition: all 0.3s ease;
+                    `;
+                    
+                    const message = query 
+                        ? `<svg width="64" height="64" fill="none" stroke="#52525b" stroke-width="2" viewBox="0 0 24 24" style="margin: 0 auto 24px;"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                           <h3 style="font-size: 24px; margin-bottom: 12px; color: #a1a1aa;">No courses found</h3>
+                           <p style="color: #71717a; font-size: 16px; margin-bottom: 24px;">We couldn't find any courses matching "${query}"</p>
+                           <button onclick="document.getElementById('searchInput').value=''; document.getElementById('searchInput').dispatchEvent(new Event('input'))" 
+                                   style="padding: 12px 24px; background: #27272a; border: 1px solid #3f3f46; border-radius: 10px; color: #fafafa; cursor: pointer; font-weight: 500; transition: all 0.2s;"
+                                   onmouseover="this.style.background='#3f3f46'" onmouseout="this.style.background='#27272a'">
+                               Clear Search
+                           </button>`
+                        : `<svg width="64" height="64" fill="none" stroke="#52525b" stroke-width="2" viewBox="0 0 24 24" style="margin: 0 auto 24px;"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                           <h3 style="font-size: 24px; margin-bottom: 12px; color: #a1a1aa;">No courses in this category</h3>
+                           <p style="color: #71717a; font-size: 16px;">Try selecting a different filter or check back soon for new courses!</p>`;
+                    
+                    emptyState.innerHTML = message;
+                    document.querySelector('.courses-grid').appendChild(emptyState);
+                    
+                    setTimeout(() => {
+                        emptyState.style.opacity = '1';
+                        emptyState.style.transform = 'translateY(0)';
+                    }, 10);
+                }
+            } else if (emptyState) {
+                emptyState.style.opacity = '0';
+                emptyState.style.transform = 'translateY(10px)';
+                setTimeout(() => emptyState.remove(), 300);
+            }
+        }
+        
+        // Initialize card animations on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.course-card');
+            cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'all 0.4s ease';
+                
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+        });
+        
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            // Focus search on '/' key
+            if (e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+                e.preventDefault();
+                document.getElementById('searchInput').focus();
+            }
+            
+            // Clear search on 'Escape' key
+            if (e.key === 'Escape' && document.activeElement === document.getElementById('searchInput')) {
+                document.getElementById('searchInput').value = '';
+                document.getElementById('searchInput').blur();
+                document.getElementById('searchInput').dispatchEvent(new Event('input'));
+            }
+        });
+        
+        // Add loading skeleton on start button click
+        document.querySelectorAll('.btn-start').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                if (!this.classList.contains('loading')) {
+                    this.classList.add('loading');
+                    this.innerHTML = `
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="animation: spin 1s linear infinite;">
+                            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                        </svg>
+                        Loading...
+                    `;
                 }
             });
         });
+        
+        // Add keyboard shortcut hint
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('focus', () => {
+            searchInput.placeholder = 'Type to search... (ESC to clear)';
+        });
+        
+        searchInput.addEventListener('blur', () => {
+            if (!searchInput.value) {
+                searchInput.placeholder = 'Search courses...';
+            }
+        });
     </script>
+    
+    <style>
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .btn-start.loading {
+            pointer-events: none;
+            opacity: 0.7;
+        }
+        
+        /* Search keyboard shortcut hint */
+        .search-box::after {
+            content: '/';
+            position: absolute;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #52525b;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 4px 8px;
+            background: #27272a;
+            border-radius: 4px;
+            pointer-events: none;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+        
+        .search-input:focus ~ .search-box::after,
+        .search-input:not(:placeholder-shown) ~ .search-box::after {
+            opacity: 0;
+        }
+    </style>
 </body>
 </html>
