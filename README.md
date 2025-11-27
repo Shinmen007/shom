@@ -83,8 +83,8 @@ Shinmen is a modern, interactive web-based platform that makes learning programm
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/shinmen.git
-   cd shinmen
+   git clone https://github.com/Shinmen007/shom.git
+   cd shom
    ```
 
 2. **Install dependencies**
@@ -189,77 +189,3 @@ Key tables:
 - `user_activity` - Daily activity for streak tracking
 - `saved_snippets` - Saved code from playground
 - `execution_history` - Code execution logs
-
----
-
-## 🚀 API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/` | Homepage |
-| GET | `/courses` | Browse all courses |
-| GET | `/course/{id}` | Course overview with lessons |
-| GET | `/lesson/{id}` | View specific lesson |
-| POST | `/lesson/{id}/complete` | Mark lesson as complete |
-| GET | `/course/{id}/quiz` | Take course quiz |
-| POST | `/course/{id}/quiz/submit` | Submit quiz answers |
-| GET | `/editor` | Code playground |
-| POST | `/api/execute` | Execute code |
-| GET | `/dashboard` | User dashboard |
-| POST | `/login` | User login |
-| POST | `/register` | User registration |
-| GET | `/logout` | Logout |
-
----
-
-## 🗺️ Development Roadmap
-
-- [x] **Phase 1: Planning & Analysis** - Requirements gathering, market research
-- [x] **Phase 2: Design** - UI/UX wireframes, database schema design
-- [x] **Phase 3: Core Development** - MVP with auth, courses, lessons, editor
-- [x] **Phase 4: Gamification** - XP system, badges, streaks
-- [ ] **Phase 5: Testing & QA** - Unit tests, integration tests, user testing
-- [ ] **Phase 6: Optimization** - Performance tuning, SEO, accessibility
-- [ ] **Phase 7: Deployment** - Production server setup, CI/CD pipeline
-- [ ] **Phase 8: Launch** - Public release and marketing
-
-### **Future Features**
-- [ ] Social features (share progress, follow users)
-- [ ] Community discussions and forums
-- [ ] Code review and mentor system
-- [ ] Mobile app (iOS & Android)
-- [ ] AI-powered code hints and explanations
-- [ ] Certificate generation
-- [ ] More languages (TypeScript, Rust, Go, Java, C++)
-- [ ] Live coding sessions
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! To get started:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 📞 Contact
-
-**Shinmen Team**  
-📧 Email: contact@shinmen.dev  
-🌐 Website: [shinmen.dev](https://shinmen.dev)  
-💬 Discord: [Join our community](https://discord.gg/shinmen)
-
----
-
-Made with ❤️ by the Shinmen Team
